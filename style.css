@@ -23,6 +23,10 @@
     border-radius: 5px;
     color: #ffffff;
 }
+.nav-btn:hover {
+  background-color: #249a56;
+  cursor: pointer;
+}
 
 .hero{
     width: 100%;
@@ -66,16 +70,29 @@
     
 }
 
+.hero-btn-1:hover {
+  background-color: #249a56;
+  cursor: pointer;
+}
 .hero-btn-2{
     width: 180px;
     height: 45px;
     background: none;
+    border-radius: 5px;
     color: #ffffff;
     border: 1px solid #db1984 ;
 }
+
+.hero-btn-2:hover {
+  background-color: #db1984;
+  color: #ffffff;
+  cursor: pointer;
+}
+
 .div2{
   display: flex;
   justify-content: center;
+  gap: 5px;
 }
 
 .hero-span{
@@ -203,6 +220,7 @@
   color: black;
   justify-items: center;
   margin-top: 0px;
+  margin-bottom: 80px;
 }
 
 .early-container {
@@ -242,6 +260,91 @@
   
 }
 
+.early-btn:hover {
+  background-color: #249a56;
+  cursor: pointer;
+}
+
 .early-btn-span{
   margin-left: 5px;
+}
+
+.footer {
+  background-color:rgba(0, 25, 49, 1);
+  color: #cbd5e1;
+  padding: 50px 60px 30px;
+}
+
+.footer-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer-logo {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.logo-icon {
+  font-size: 22px;
+}
+
+.logo-text {
+  font-size: 20px;
+  font-weight: bold;
+  color: #22c55e;
+}
+
+.footer-logo small {
+  margin-left: 6px;
+  font-size: 12px;
+  color: #94a3b8;
+}
+
+.footer-social p {
+  font-size: 14px;
+  margin-bottom: 8px;
+  text-align: right;
+}
+
+.social-icons {
+  display: flex;
+  gap: 12px;
+  justify-content: flex-end;
+}
+
+.social-icons a {
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  border: 1px solid #334155;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #cbd5e1;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.social-icons a:hover {
+  background-color: #22c55e;
+  color: #020617;
+}
+
+.footer-divider {
+  border: none;
+  border-top: 1px solid #1e293b;
+  margin: 30px 0 20px;
+}
+
+.footer-copy {
+  text-align: center;
+  font-size: 13px;
+  color: #94a3b8;
+}
+
+.footer-p{
+  margin-right: 40px;
 }
