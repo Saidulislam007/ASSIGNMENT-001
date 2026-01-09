@@ -189,3 +189,9 @@
   width: 20px;
   height: 20px;
 }
+
+.early-access {
+  padding: 100px 20px;
+  color: black;
+  justify-items: center
+}
