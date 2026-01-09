@@ -89,6 +89,10 @@
   cursor: pointer;
 }
 
+.hero-btn-span{
+  margin-right: 4px;
+}
+
 .div2{
   display: flex;
   justify-content: center;
