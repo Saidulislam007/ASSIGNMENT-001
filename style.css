@@ -51,6 +51,7 @@
     margin-top: -40px;
 }
 
+
 .hero-btn-1{
     width: 240px;
     height: 45px;
@@ -58,7 +59,11 @@
     color: #f1f0f0;
     border: none;
     border-radius: 5px;
-    margin-left: 120px;
+    display: flex;
+  justify-items: center;
+  justify-content: center;
+  align-items: center;
+    
 }
 
 .hero-btn-2{
@@ -67,6 +72,10 @@
     background: none;
     color: #ffffff;
     border: 1px solid #db1984 ;
+}
+.div2{
+  display: flex;
+  justify-content: center;
 }
 
 .hero-span{
@@ -191,7 +200,48 @@
 }
 
 .early-access {
-  padding: 100px 20px;
   color: black;
-  justify-items: center
+  justify-items: center;
+  margin-top: 0px;
+}
+
+.early-container {
+ width: 1380px;
+ height: 280px;
+  margin: 0 auto;
+  text-align: center;
+  background-color: #f7f6f2;
+  justify-items: center;
+  justify-content: center;
+  padding-top: 40px;
+}
+
+.early-h1{
+  font-size: 40px;
+}
+
+.early-p{
+  color: #627382;
+  margin-top: -10px;
+}
+.early-p2{
+  color: #627382;
+}
+
+.early-btn{
+  background-color: #30B868;
+  border: none;
+  color: #f1f0f0;
+  padding: 12px 20px 7px 20px;
+  border-radius: 5px;
+  display: flex;
+  justify-items: center;
+  justify-content: center;
+  align-items: center;
+  margin-left: 160px;
+  
+}
+
+.early-btn-span{
+  margin-left: 5px;
 }
